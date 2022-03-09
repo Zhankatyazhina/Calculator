@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(to right, green , aqua);
+}
+
+
+.main{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    width: 8rem;
+}
+
+input{
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+}
+input:hover{
+    box-shadow: 0 9px 9px rgba(32, 13, 139, 0.5);
+}
+.operators{
+   padding: 10px;
+   margin-left: 70px;
+   display: flex;
+   align-items: center;
+   border-radius: 10px;
+   
+}
+.calc{
+    margin-top: 6px;
+    margin-left: 55px;
+    width: 150px;
+    height: 30px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    
+}
+.calc:hover{
+    transform: scale(1.06);
+    box-shadow: 0 9px 9px rgba(32, 13, 139, 0.5);
+    color: rgb(184, 6, 21);
+}
